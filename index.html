@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <title>Planetarium</title>
+        <title>Grayscale - Start Bootstrap Theme</title>
         <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
         <!-- Font Awesome icons (free version)-->
         <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" crossorigin="anonymous"></script>
@@ -15,6 +15,26 @@
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
+        <script src="https://code.jquery.com/jquery-3.5.1.js"
+        integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+        crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.0/animate.css">
+        <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.js"></script>
+     <script>
+        $(document).ready(function() {
+          $("#jump").addClass("animated bounce");
+          $("#mer").mousedown(function(){
+              alert("我是水星辣(ゝ∀･)");
+            });
+            $("#sea").mousedown(function(){
+              alert("我是海王星呦(っ´ω`c)");
+            });
+            $("#sky").mousedown(function(){
+              alert("嗨嗨 我是天王星ヾ(*´∀ ˋ*)ﾉ");
+            });
+            $("#mer").addClass("animated bounce");
+        });
+     </script>
     </head>
     <bgsound src="https://www.youtube.com/watch?v=Jlmnka7imuQ" loop="infinite"></bgsound>
     <body id="page-top">
@@ -110,6 +130,44 @@
                                 </div>
                             </div>
                         </div>
+                    </div>
+                </div>
+                <!-- 實驗性質新加的-->
+                <br>
+                <br>
+                <br>
+                <br>
+                <div class="row align-items-center no-gutters mb-4 mb-lg-5">
+                    <div class="col-xl-4 col-lg-5">
+                        <div class="featured-text text-center text-lg-left">
+                            <h1>太陽系八大行星</h1>
+                            <p class="text-black-50 mb-0"></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row align-items-center no-gutters mb-4 mb-lg-5">
+                    <div class="col-xl-8 col-lg-7"><img class="img-fluid mb-3 mb-lg-0" src="https://upload.wikimedia.org/wikipedia/commons/0/08/Planets2008_hant.jpg" alt="" /></div>
+                </div>
+                <!-- 猜謎大賽1-->
+                <div class="featured-text text-center text-lg-left">
+                    <h2 class="col-xl-8 col-lg-7">猜猜我是誰(*ﾟ∀ﾟ*)</h2>
+                    <h4 class="col-xl-8 col-lg-7">(點擊圖片確認答案)(重整頁面有小驚喜哦)</h4>
+                    <p class="text-black-50 mb-0"></p>
+                </div>
+                <img id="mer" src="https://i.imgur.com/R7vgs6a.png">
+                <br>
+                <br>
+                <!-- 猜謎大賽2-->
+                <div class="featured-text text-center text-lg-left">
+                    <h2 class="col-xl-8 col-lg-7">進階題來囉(ง๑ •̀_•́)ง</h2>
+                    <h4 class="col-xl-8 col-lg-7">(點擊圖片確認答案)</h4>
+                    <p class="text-black-50 mb-0"></p>
+                </div>
+                <!-- 實驗表格-->
+                <div class="row justify-content-center no-gutters">
+                    <div class="col-lg-6"><img id="sky" class="img-fluid" src="https://i.imgur.com/rK8jctK.png" alt="" /></div>
+                    <div class="col-lg-6 order-lg-first">
+                        <img id="sea" class="img-fluid" src="https://i.imgur.com/ml5Z170.png" alt="" />
                     </div>
                 </div>
             </div>
